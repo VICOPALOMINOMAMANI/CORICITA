@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Sorpresa Amarilla</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <main class="phone-app">
+   <section id="cakeScene" class="scene active">
+      <div class="led-frame"></div>
+      <div class="cake-card glass">
+        <p class="small-text">Enciende cada vela</p>
+        <div class="cake">
+          <div class="candles">
+
+  <button class="candle" type="button" aria-label="Vela 1">
+    <span class="wick"></span>
+    <span class="flame"></span>
+  </button>
+
+  <button class="candle" type="button" aria-label="Vela 2">
+    <span class="wick"></span>
+    <span class="flame"></span>
+  </button>
+
+  <button class="candle" type="button" aria-label="Vela 3">
+    <span class="wick"></span>
+    <span class="flame"></span>
+  </button>
+
+  <button class="candle" type="button" aria-label="Vela 4">
+    <span class="wick"></span>
+    <span class="flame"></span>
+  </button>
+
+</div>
+          <div class="cream"></div>
+          <div class="cake-top"></div>
+          <div class="cake-body"></div>
+          <div class="cake-base"></div>
+        </div>
+      </div>
+    </section>
+
+ <section id="wishScene" class="scene">
+  <div class="led-frame"></div>
+
+  <h1 id="wishTitle" class="wish-text">Pide un deseo</h1>
+
+  <div id="starsContainer" class="stars-container">
+
+  <button class="wish-star" type="button">
+    <span class="star-shape"></span>
+  </button>
+
+  <button class="wish-star" type="button">
+    <span class="star-shape"></span>
+  </button>
+
+  <button class="wish-star" type="button">
+    <span class="star-shape"></span>
+  </button>
+  
+    <button class="wish-star" type="button">
+    <span class="star-shape"></span>
+  </button>
+
+</div>
+
+  <div id="starDust" class="star-dust"></div>
+</section>
+
+    <section id="flowerScene" class="scene">
+      <div class="led-frame"></div>
+      <div class="final-card glass">
+        <div class="photo-frame">
+          <img src="assets/foto.jpg" alt="Foto especial" />
+        </div>
+
+        <div class="flower-container">
+         <iframe
+          id="flowerFrame"
+          class="flower-frame"
+          src="about:blank"
+          data-src="flores/index.html"
+          title="Flores amarillas animadas"
+          scrolling="no"
+        ></iframe>
+        </div>
+
+        <div class="message-box">
+          <p>Feliz Cumpleaños Coricita. Que esta flor te recuerde lo perfecta que eres: auténtica, 
+            real y, sobre todo, admirable. Te mereces todo lo bueno y bonito que tiene la vida para ti...❤️</p>
+        </div>
+
+        <p class="tap-text">Toca la pantalla para confeti 🎉</p>
+      </div>
+    </section>
+  </main>
+
+  <canvas id="confettiCanvas"></canvas>
+  <audio id="backgroundMusic" loop>
+  <source src="music/musica.mp3" type="audio/mpeg">
+</audio>
+  <script src="js/main.js"></script>
+</body>
+</html>
