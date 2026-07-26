@@ -62,7 +62,7 @@ function showWish() {
   star.style.display = 'block';
 
 const start = 8;   // margen izquierdo
-const end = 65;     // margen derecho
+const end = 68;     // margen derecho
 
 const step = (end - start) / (wishStars.length - 1);
 
