@@ -347,7 +347,7 @@ body {
   );
 
   filter:
-    drop-shadow(0 0 4px #fff8a0)
+    drop-shadow(0 0 4px #ffc1a0)
     drop-shadow(0 0 9px #ffe600)
     drop-shadow(0 0 18px #ffe600)
     drop-shadow(0 0 30px #ffb300);
@@ -359,7 +359,7 @@ body {
   position: absolute;
   inset: 15px;
 
-  background: #c9a83e;
+  background: #FFF3A8;
 
   clip-path: inherit;
 }
