@@ -61,10 +61,13 @@ function showWish() {
   star.style.opacity = '1';
   star.style.display = 'block';
 
-  const space = 100 / (wishStars.length + 1);
+const start = 15;   // margen izquierdo
+const end = 85;     // margen derecho
 
-  star.style.left = `${space * (index + 1)}%`;
-  star.style.top = '60%';
+const step = (end - start) / (wishStars.length - 1);
+
+star.style.left = `${start + index * step}%`;
+star.style.top = '60%';
 });
 
   clearInterval(starMovementInterval);
