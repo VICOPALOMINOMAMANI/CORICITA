@@ -37,7 +37,7 @@ candles.forEach((candle) => {
     litCandles++;
 
     if (litCandles === candles.length) {
-      setTimeout(showWish, 112);
+      setTimeout(showWish, 7000);
     }
   });
 });
