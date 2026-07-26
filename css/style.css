@@ -115,7 +115,7 @@ body {
   position: relative;
 
   width: 20px;
-  height: 70px;
+  height: 75px;
 
   padding: 0;
   border: none;
@@ -141,8 +141,8 @@ body {
   left: 50%;
   top: -8px;
 
-  width: 5px;
-  height: 9px;
+  width: 6px;
+  height: 10px;
 
   border-radius: 3px;
 

@@ -37,7 +37,7 @@ candles.forEach((candle) => {
     litCandles++;
 
     if (litCandles === candles.length) {
-      setTimeout(showWish, 7000);
+      setTimeout(showWish, 100);
     }
   });
 });
@@ -61,13 +61,13 @@ function showWish() {
   star.style.opacity = '1';
   star.style.display = 'block';
 
-const start = 15;   // margen izquierdo
-const end = 85;     // margen derecho
+const start = 8;   // margen izquierdo
+const end = 80;     // margen derecho
 
 const step = (end - start) / (wishStars.length - 1);
 
 star.style.left = `${start + index * step}%`;
-star.style.top = '60%';
+star.style.top = '63%';
 });
 
   clearInterval(starMovementInterval);
