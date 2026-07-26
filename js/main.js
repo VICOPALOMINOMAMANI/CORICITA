@@ -214,7 +214,7 @@ function showFlowerScene() {
       flowerFrame.src =
         flowerFrame.dataset.src +
         `?t=${Date.now()}`;
-    }, 100);
+    }, 7000);
   }
 }
 function launchConfetti(x = window.innerWidth / 2, y = window.innerHeight / 2) {
