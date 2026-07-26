@@ -37,7 +37,7 @@ candles.forEach((candle) => {
     litCandles++;
 
     if (litCandles === candles.length) {
-      setTimeout(showWish, 100);
+      setTimeout(showWish, 7000);
     }
   });
 });
@@ -214,7 +214,7 @@ function showFlowerScene() {
       flowerFrame.src =
         flowerFrame.dataset.src +
         `?t=${Date.now()}`;
-    }, 7000);
+    }, 100);
   }
 }
 function launchConfetti(x = window.innerWidth / 2, y = window.innerHeight / 2) {
